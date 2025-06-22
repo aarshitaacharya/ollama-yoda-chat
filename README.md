@@ -57,7 +57,7 @@ ollama pull llama3
 python yoda_chat.py
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Basic Commands
 
@@ -80,7 +80,7 @@ python yoda_chatbot.py codellama
 python yoda_chatbot.py --help
 ```
 
-## 📋 Available Models
+## Available Models
 
 The chatbot works with any Ollama-compatible model. Popular choices:
 
@@ -97,7 +97,7 @@ Pull any model with:
 ollama pull <model-name>
 ```
 
-## 🛠️ Installation from Source
+## Installation from Source
 
 ```bash
 # Clone the repository
