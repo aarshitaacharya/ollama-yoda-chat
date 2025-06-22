@@ -47,9 +47,7 @@ def check_model_availability(model_name: str) -> bool:
                 available_models.append(model_name_key)
             else:
                 available_models.append(str(model))
-        
-        print(f"Debug - Available models: {available_models}")  # Debug line
-        
+
         model_found = False
         for available_model in available_models:
             if model_name == available_model or model_name in available_model or available_model in model_name:
